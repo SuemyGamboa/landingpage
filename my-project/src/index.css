@@ -1,0 +1,133 @@
+/* :root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+*/
+    
+
+
+/* Título principal */
+h1 {
+  color: purple;
+  text-align: center;
+}
+
+.kulomi {
+  width: 50px;
+}
+/* Estilos para las imágenes */
+.image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.image-gallery img {
+  width: 30%;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+/* Estilos para los botones */
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.buttons a {
+  text-decoration: none;
+  padding: 10px 20px;
+  background-color: #79368d;
+  color: white;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.cuadro {
+  padding: 30px;
+  margin: 10px;
+  background-color: #f4f4f4; /* Color de fondo */
+  border: 5px solid purple;
+  
+}
+
+footer {
+  display: block;
+text-align: center;
+
+}
+
+#buscador {
+width: 400px;
+padding: 5px;
+border-radius: 5px;
+border-color: rgb(214, 9, 237);
+
+
+}
